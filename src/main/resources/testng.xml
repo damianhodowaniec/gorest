@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Intrum QA Verification Tests" parallel="classes" thread-count="3">
+    <test name="Gorest api v2 - Users" preserve-order="true">
+        <classes>
+            <class name="runners.UsersNestedRunner"/>
+            <class name="runners.UsersRunner"/>
+        </classes>
+    </test>
+</suite>
